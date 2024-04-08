@@ -1,17 +1,17 @@
 class Cell:
     def __init__(self,color = (0,0,0),alive=False):
-        self.color = color
-        self.alive = alive
+        self.__color = color
+        self.__alive = alive
         
     def getColor(self):
-        return self.color
+        return self.__color
     
     def setColor(self, colorNew):
-        self.color = colorNew
+        self.__color = colorNew
     
     def getStatus(self):
-        return self.alive
+        return self.__alive
     
     def setStatus(self, status):
-        self.alive = status
+        self.__alive = status
         
