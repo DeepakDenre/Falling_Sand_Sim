@@ -1,11 +1,11 @@
 ScreenHeight = 1080//2
 ScreenWidth = 1920//2
 
-cellSize = 2
+cellSize = 4
 row = ScreenHeight // cellSize
 col = ScreenWidth // cellSize
 
-brushSize = 18
+brushSize = 6
 
 colorPallet = {
     "sand":[(255,255,0),
