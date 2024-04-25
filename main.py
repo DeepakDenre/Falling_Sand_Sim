@@ -8,6 +8,7 @@ if __name__ == "__main__":
         "Falling Sand",
         cellSize,
         brushSize,
-        colorPallet
+        colorPallet,
+        ScreenColor
     )
-    Eng.GameLoop()
+    Eng.gameloop()

@@ -1,8 +1,8 @@
 class Cell:
-    def __init__(self,color = (0,0,0),alive=False,cellType = "sand"):
-        self.__color = color
-        self.__alive = alive
-        self.__cellType = cellType
+    def __init__(self,color = (0,0,0),alive=False,cellType = "null"):
+        self.__color : tuple = color
+        self.__alive : bool = alive
+        self.__cellType : str = cellType
         
     def getColor(self):
         return self.__color
@@ -20,5 +20,5 @@ class Cell:
         return self.__cellType
     
     def setCellType(self, cellType):
-        self.getCellType = cellType
+        self.__cellType = cellType
         
